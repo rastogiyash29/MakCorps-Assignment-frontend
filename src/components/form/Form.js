@@ -88,7 +88,7 @@ function Form() {
 
     // Submit the form if there are no errors
     if (Object.values(errors).every((error) => error === "")) {
-
+      showInfo('Form saving initiated');
       var data;
       if(form){ //Older Form submission
         data=await axiosClient.post('form/update',{_id:form._id,name,email,address,phone,dob});
@@ -97,7 +97,9 @@ function Form() {
       }
       //result of request made
       if(data?.status==='ok'){
-        showSuccess("Form data saved successfully")
+        toast.success('Form data saved successfully',{
+          position:toast.POSITION.TOP_CENTER
+        });
         setFormData({
           name: "",
           email: "",
@@ -126,7 +128,7 @@ function Form() {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-  const showSuccess = (message) => {
+  const showInfo = (message) => {
     toast.info(message, {
       position: toast.POSITION.TOP_CENTER
     });
