@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const base_url='https://assignment-server-render.onrender.com';
-const base_url='http://localhost:4001';
+const base_url='https://mak-corps-backend.onrender.com';
+// const base_url='http://localhost:4001';
 
 export const axiosClient=axios.create({
     baseURL: base_url,
