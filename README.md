@@ -7,7 +7,7 @@
 # Getting Started with Create React App
 ## Getting Started
 
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `git clone https://github.com/rastogiyash29/MakCorps-Assignment-frontend.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
