@@ -1,11 +1,10 @@
-# Getting Started with Create React App
-
 # Frontend live-link: https://mak-corps-assignment-frontend.vercel.app/
 ## Backend repo: https://github.com/rastogiyash29/MakCorps-Assignment-Backend
 
 # Screenshots
 
 
+# Getting Started with Create React App
 ## Getting Started
 
 1. Clone the repository: `git clone <repository_url>`
